@@ -24,7 +24,7 @@ export default function Itinerary() {
             <Image
               className="max-w-full mx-auto md:max-w-none h-auto"
               src={ItinImage}
-              width={350}
+              width={700}
               alt="Features 01"
             />
           </div>
