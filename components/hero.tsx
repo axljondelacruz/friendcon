@@ -54,7 +54,7 @@ export default function Hero() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Unleashing Synergies Among Pals
+              Dec 1-3 | Julian, California
             </p>
           </div>
 
