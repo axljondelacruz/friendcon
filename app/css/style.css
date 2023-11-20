@@ -11,12 +11,42 @@
 
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
-    .rtl {
-        direction: rtl;
-    }
+  .rtl {
+    direction: rtl;
+  }
 }
 
 /* See Alpine.js: https://github.com/alpinejs/alpine#x-cloak */
-[x-cloak=""] {
-    display: none;
+[x-cloak=''] {
+  display: none;
+}
+
+.body-bg {
+  background: #2a2a2a;
+}
+
+.section-header {
+  color: #1b9eee;
+}
+
+.alt-bg {
+  background: linear-gradient(
+    0deg,
+    rgba(42, 42, 42, 1) 0%,
+    rgba(17, 17, 17, 1) 5%,
+    rgba(17, 17, 17, 1) 95%,
+    rgba(42, 42, 42, 1) 100%
+  );
+}
+
+.hero-svg {
+  bottom: -40px;
+}
+
+.hero-modal-iframe {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 100%;
 }
