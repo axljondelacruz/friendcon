@@ -53,8 +53,17 @@
 
 .hero-modal-iframe {
   position: absolute;
-  top: 35%;
-  left: 10%;
-  width: 80%;
-  height: 25%;
+  top: 0;
+  left: 15%;
+  width: 70%;
+  height: 100%;
+}
+
+@media (max-width: 400px) {
+  .hero-modal-iframe {
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    height: 25%;
+  }
 }
