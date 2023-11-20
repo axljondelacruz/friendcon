@@ -4,7 +4,7 @@ export default function Features() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="max-w-3xl mx-auto text-center pb-0">
-            <h1 className="h2 mb-4">
+            <h1 className="h2 mb-4 section-header">
               Welcome to FriendCon2023 - The F23 Summit!
             </h1>
             <p className="text-xl text-gray-400">

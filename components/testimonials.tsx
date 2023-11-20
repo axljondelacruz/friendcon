@@ -6,7 +6,7 @@ import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 
 export default function Testimonials() {
   return (
-    <section className="alt-bg">
+    <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
@@ -57,14 +57,7 @@ export default function Testimonials() {
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">
                   Sarah T., Marketing Maverick
-                </cite>{' '}
-                -{' '}
-                <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  UX Board
-                </a>
+                </cite>
               </div>
             </div>
 
@@ -102,14 +95,7 @@ export default function Testimonials() {
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">
                   Alex K., Tech Enthusiast
-                </cite>{' '}
-                -{' '}
-                <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  UX Board
-                </a>
+                </cite>
               </div>
             </div>
 
@@ -147,14 +133,7 @@ export default function Testimonials() {
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">
                   Jamie L., Startup Trailblazer
-                </cite>{' '}
-                -{' '}
-                <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  UX Board
-                </a>
+                </cite>
               </div>
             </div>
           </div>

@@ -12,12 +12,14 @@ import LogoImage09 from '@/public/images/logo-09.png'
 
 export default function Zigzag() {
   return (
-    <section>
+    <section className="alt-bg">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Meet Our Diverse Community</h1>
+            <h1 className="h2 mb-4 section-header">
+              Meet Our Diverse Community
+            </h1>
             <p className="text-xl text-gray-400">
               Join a vibrant mix of seasoned entrepreneurs, industry leaders,
               startups, and creatives at FriendCon2023. United by a shared
@@ -118,7 +120,7 @@ export default function Zigzag() {
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={LogoImage07}
+                  src={LogoImage08}
                   width={350}
                   alt="Features 01"
                 />
@@ -134,6 +136,11 @@ export default function Zigzag() {
                   alt="Features 01"
                 />
               </div>
+            </div>
+            <div className="md:w-full">
+              <h4 className="h4 mb-4" data-aos="fade-up">
+                and many more!
+              </h4>
             </div>
           </div>
         </div>

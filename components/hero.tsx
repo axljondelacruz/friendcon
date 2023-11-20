@@ -46,7 +46,7 @@ export default function Hero() {
         <div className="relative pt-5 pb-10">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-0 pt-5">
-            <h1 className="h1 mb-4" data-aos="fade-up">
+            <h1 className="h1 mb-4 section-header" data-aos="fade-up">
               FriendCon 2023
             </h1>
             <p
