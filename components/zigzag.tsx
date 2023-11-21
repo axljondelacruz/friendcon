@@ -9,6 +9,7 @@ import LogoImage06 from '@/public/images/logo-06.png'
 import LogoImage07 from '@/public/images/logo-07.png'
 import LogoImage08 from '@/public/images/logo-08.png'
 import LogoImage09 from '@/public/images/logo-09.png'
+import LogoImage10 from '@/public/images/logo-10.png'
 
 export default function Zigzag() {
   return (
@@ -34,106 +35,121 @@ export default function Zigzag() {
           <div className="grid gap-20">
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
                 data-aos="fade-up"
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={LogoImage01}
-                  width={350}
+                  width={550}
                   alt="Features 01"
                 />
               </div>
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
                 data-aos="fade-up"
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={LogoImage02}
-                  width={350}
-                  alt="Features 01"
+                  width={550}
+                  alt="Features 02"
                 />
               </div>
+            </div>
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
                 data-aos="fade-up"
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={LogoImage03}
-                  width={350}
-                  alt="Features 01"
+                  width={550}
+                  alt="Features 03"
                 />
               </div>
-            </div>
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
                 data-aos="fade-up"
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={LogoImage04}
-                  width={350}
-                  alt="Features 01"
-                />
-              </div>
-              <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
-                data-aos="fade-up"
-              >
-                <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={LogoImage05}
-                  width={350}
-                  alt="Features 01"
-                />
-              </div>
-              <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
-                data-aos="fade-up"
-              >
-                <Image
-                  className="max-w-full mx-auto md:max-w-none h-auto"
-                  src={LogoImage06}
-                  width={350}
-                  alt="Features 01"
+                  width={550}
+                  alt="Features 04"
                 />
               </div>
             </div>
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={LogoImage05}
+                  width={550}
+                  alt="Features 05"
+                />
+              </div>
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={LogoImage06}
+                  width={550}
+                  alt="Features 06"
+                />
+              </div>
+            </div>
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
                 data-aos="fade-up"
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={LogoImage07}
-                  width={350}
-                  alt="Features 01"
+                  width={550}
+                  alt="Features 07"
                 />
               </div>
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
                 data-aos="fade-up"
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={LogoImage08}
-                  width={350}
-                  alt="Features 01"
+                  width={550}
+                  alt="Features 08"
                 />
               </div>
+            </div>
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               <div
-                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-4"
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
                 data-aos="fade-up"
               >
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={LogoImage09}
-                  width={350}
-                  alt="Features 01"
+                  width={550}
+                  alt="Features 09"
+                />
+              </div>
+              <div
+                className="max-w-xl md:max-w-none md:w-full mx-auto col-span-6"
+                data-aos="fade-up"
+              >
+                <Image
+                  className="max-w-full mx-auto md:max-w-none h-auto"
+                  src={LogoImage10}
+                  width={550}
+                  alt="Features 10"
                 />
               </div>
             </div>
