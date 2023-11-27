@@ -2,7 +2,7 @@ import Section from '@/components/ui/section'
 import SectionHeader from '@/components/ui/section-header'
 import Image from 'next/image'
 import RouteImage1 from '@/public/images/route1.png'
-import RouteImage2 from '@/public/images/route1.png'
+import RouteImage2 from '@/public/images/route2.png'
 
 export default function Location() {
   return (
@@ -48,17 +48,17 @@ export default function Location() {
           Route should look similar to this:
         </p>
         <Image
-          className="max-w-full mx-auto md:max-w-none h-auto"
+          className="max-w-full mx-auto md:max-w-none h-auto pb-10"
           src={RouteImage1}
           width={550}
           alt="Route 1"
         />
         <p className="text-xl text-gray-200">Closer look at the u-turn</p>
         <Image
-          className="max-w-full mx-auto md:max-w-none h-auto"
+          className="max-w-full mx-auto md:max-w-none h-auto pb-10"
           src={RouteImage2}
           width={550}
-          alt="Route 1"
+          alt="Route 2"
         />
         <div className="warning">
           <h3 className="h3">
