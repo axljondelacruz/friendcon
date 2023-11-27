@@ -1,4 +1,4 @@
-export default function Features() {
+export default function Location() {
   return (
     <section className="alt-bg">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

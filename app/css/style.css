@@ -29,24 +29,6 @@
   color: #1b9eee;
 }
 
-.alt-bg {
-  background: linear-gradient(
-    0deg,
-    rgba(42, 42, 42, 1) 0%,
-    rgba(17, 17, 17, 1) 5%,
-    rgba(17, 17, 17, 1) 95%,
-    rgba(42, 42, 42, 1) 100%
-  );
-}
-
-.footer {
-  background: linear-gradient(
-    0deg,
-    rgba(17, 17, 17, 1) 90%,
-    rgba(42, 42, 42, 1) 100%
-  );
-}
-
 .hero-svg {
   bottom: -40px;
 }
@@ -66,4 +48,44 @@
     width: 80%;
     height: 25%;
   }
+}
+
+.grow section:nth-child(even) {
+  /* background-color: red; */
+}
+
+.grow section:nth-child(odd) {
+  background: linear-gradient(
+    0deg,
+    rgba(42, 42, 42, 1) 0%,
+    rgba(17, 17, 17, 1) 5%,
+    rgba(17, 17, 17, 1) 95%,
+    rgba(42, 42, 42, 1) 100%
+  );
+}
+
+.grow footer:nth-child(even) {
+  /* background-color: red; */
+}
+
+.grow footer:nth-child(odd) {
+  background: linear-gradient(
+    0deg,
+    rgba(17, 17, 17, 1) 90%,
+    rgba(42, 42, 42, 1) 100%
+  );
+}
+
+.grow .first-section:nth-child(even) {
+  /* background-color: red; */
+}
+
+.grow .first-section:nth-child(odd) {
+  background: linear-gradient(
+    0deg,
+    rgba(42, 42, 42, 1) 0%,
+    rgba(17, 17, 17, 1) 5%,
+    rgba(17, 17, 17, 1) 95%,
+    rgba(42, 42, 42, 1) 100%
+  );
 }

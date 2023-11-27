@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function PageIllustration() {
+export default function PageIllustration1() {
   return (
     <div
       className="relative max-w-6xl mx-auto h-0 pointer-events-none"
