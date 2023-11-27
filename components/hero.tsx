@@ -6,7 +6,7 @@ import PageIllustration2 from '@/components/ui/page-illustration-2'
 
 export default function Hero() {
   return (
-    <Section noPad>
+    <Section noPad className="hero-section">
       <PageIllustration2 />
 
       <div className="relative pt-5 pb-10">

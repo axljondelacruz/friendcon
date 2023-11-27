@@ -3,7 +3,7 @@ import SectionHeader from '@/components/ui/section-header'
 
 export default function Welcome() {
   return (
-    <Section>
+    <Section id="welcome">
       <SectionHeader headerText="Welcome to FriendCon2023 - The F23 Summit!">
         <p className="text-xl text-gray-400">
           Join us for a one-of-a-kind corporate event that blends business and

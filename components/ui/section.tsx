@@ -1,14 +1,16 @@
 export default function Section({
-  isAlt,
   noPad,
   children,
+  className,
+  id,
 }: {
-  isAlt?: boolean
   noPad?: boolean
   children?: React.ReactNode
+  className?: string
+  id?: string
 }) {
   return (
-    <section className={isAlt ? 'alt-bg' : ''}>
+    <section id={id} className={className}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {noPad ? (
           <>{children}</>

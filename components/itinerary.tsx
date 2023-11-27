@@ -6,7 +6,7 @@ import ItinImage from '@/public/images/itinerary.png'
 
 export default function Itinerary() {
   return (
-    <Section>
+    <Section id="itinerary">
       <SectionHeader
         headerText="What to expect"
         description="Embark for a weekend filled with food, drinks, and pals. Every moment

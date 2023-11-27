@@ -16,7 +16,7 @@ import SectionHeader from '@/components/ui/section-header'
 
 export default function Community() {
   return (
-    <Section>
+    <Section id="our-community">
       <SectionHeader
         headerText="Meet Our Diverse Community"
         description="Join a vibrant mix of seasoned entrepreneurs, industry leaders,

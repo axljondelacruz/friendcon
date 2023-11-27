@@ -89,3 +89,19 @@
     rgba(42, 42, 42, 1) 100%
   );
 }
+
+.warning {
+  color: rgb(239 68 68);
+  background-color: rgb(254 202 202);
+  border-radius: 50px;
+}
+
+.hero-section {
+  margin-top: 80px;
+}
+
+.header {
+  background: #2a2a2a;
+  z-index: 1;
+  padding: 12px;
+}

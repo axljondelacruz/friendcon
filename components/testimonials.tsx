@@ -70,7 +70,7 @@ function TestimonialBlock({
 
 export default function Testimonials() {
   return (
-    <Section>
+    <Section id="testimonials">
       <SectionHeader
         headerText="Voices of Past Attendees"
         description="Discover the firsthand experiences of those who have journeyed with us
