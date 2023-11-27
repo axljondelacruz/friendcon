@@ -50,14 +50,14 @@ export default function Location() {
         <Image
           className="max-w-full mx-auto md:max-w-none h-auto pb-10"
           src={RouteImage1}
-          width={550}
+          width={1000}
           alt="Route 1"
         />
         <p className="text-xl text-gray-200">Closer look at the u-turn</p>
         <Image
           className="max-w-full mx-auto md:max-w-none h-auto pb-10"
           src={RouteImage2}
-          width={550}
+          width={1000}
           alt="Route 2"
         />
         <div className="warning">
