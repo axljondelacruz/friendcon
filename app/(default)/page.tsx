@@ -11,18 +11,12 @@ import Location from '@/components/location'
 import Community from '@/components/community'
 import Testimonials from '@/components/testimonials'
 import Footer from '@/components/ui/footer'
+import ThankYou from '@/components/thank-you'
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Welcome />
-      <Itinerary />
-      <Location />
-      <Community />
-      <Testimonials />
-      <Footer />
+      <ThankYou />
     </>
   )
 }
