@@ -6,7 +6,7 @@ import GroupPhoto from '@/public/images/f23-group-photo.jpg'
 
 export default function ThankYou() {
   return (
-    <Section noPad>
+    <Section>
       <PageIllustration2 />
 
       <div className="relative pt-5 pb-10">

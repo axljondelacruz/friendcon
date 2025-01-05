@@ -23,8 +23,8 @@ export default function Home() {
       <Location />
       <Community />
       <Testimonials />
-      <Footer />
-      {/* <ThankYou /> */}
+      {/* <Footer /> */}
+      <ThankYou />
     </>
   )
 }
