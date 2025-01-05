@@ -16,7 +16,15 @@ import ThankYou from '@/components/thank-you'
 export default function Home() {
   return (
     <>
-      <ThankYou />
+      <Header />
+      <Hero />
+      <Welcome />
+      <Itinerary />
+      <Location />
+      <Community />
+      <Testimonials />
+      <Footer />
+      {/* <ThankYou /> */}
     </>
   )
 }
