@@ -1,14 +1,11 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
-import ModalVideo from '@/components/ui/modal-video'
-import Section from '@/components/ui/section'
-import SectionHeader from '@/components/ui/section-header'
-import PageIllustration2 from '@/components/ui/page-illustration-2'
+import VideoThumb from '../public/images/hero-image-01.jpg'
+import ModalVideo from './ui/modal-video'
+import Section from './ui/section'
+import SectionHeader from './ui/section-header'
 
 export default function Hero() {
   return (
     <Section noPad className="hero-section">
-      <PageIllustration2 />
-
       <div className="relative pt-5 pb-10">
         <SectionHeader
           headerText="FriendCon 2023"

@@ -1,18 +1,18 @@
 import Image from 'next/image'
 
-import LogoImage01 from '@/public/images/logo-01.png'
-import LogoImage02 from '@/public/images/logo-02.png'
-import LogoImage03 from '@/public/images/logo-03.png'
-import LogoImage04 from '@/public/images/logo-04.png'
-import LogoImage05 from '@/public/images/logo-05.png'
-import LogoImage06 from '@/public/images/logo-06.png'
-import LogoImage07 from '@/public/images/logo-07.png'
-import LogoImage08 from '@/public/images/logo-08.png'
-import LogoImage09 from '@/public/images/logo-09.png'
-import LogoImage10 from '@/public/images/logo-10.png'
+import LogoImage01 from '../public/images/logo-01.png'
+import LogoImage02 from '../public/images/logo-02.png'
+import LogoImage03 from '../public/images/logo-03.png'
+import LogoImage04 from '../public/images/logo-04.png'
+import LogoImage05 from '../public/images/logo-05.png'
+import LogoImage06 from '../public/images/logo-06.png'
+import LogoImage07 from '../public/images/logo-07.png'
+import LogoImage08 from '../public/images/logo-08.png'
+import LogoImage09 from '../public/images/logo-09.png'
+import LogoImage10 from '../public/images/logo-10.png'
 
-import Section from '@/components/ui/section'
-import SectionHeader from '@/components/ui/section-header'
+import Section from './ui/section'
+import SectionHeader from './ui/section-header'
 
 export default function Community() {
   return (

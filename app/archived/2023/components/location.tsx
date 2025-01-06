@@ -1,8 +1,8 @@
-import Section from '@/components/ui/section'
-import SectionHeader from '@/components/ui/section-header'
+import Section from './ui/section'
+import SectionHeader from './ui/section-header'
 import Image from 'next/image'
-import RouteImage1 from '@/public/images/route1.png'
-import RouteImage2 from '@/public/images/route2.png'
+import RouteImage1 from '../public/images/route1.png'
+import RouteImage2 from '../public/images/route2.png'
 
 export default function Location() {
   return (

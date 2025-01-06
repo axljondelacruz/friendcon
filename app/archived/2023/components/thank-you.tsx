@@ -1,14 +1,11 @@
-import Section from '@/components/ui/section'
-import SectionHeader from '@/components/ui/section-header'
-import PageIllustration2 from '@/components/ui/page-illustration-2'
+import Section from './ui/section'
+import SectionHeader from './ui/section-header'
 import Image from 'next/image'
-import GroupPhoto from '@/public/images/f23-group-photo.jpg'
+import GroupPhoto from '../public/images/f23-group-photo.jpg'
 
 export default function ThankYou() {
   return (
-    <Section noPad>
-      <PageIllustration2 />
-
+    <Section>
       <div className="relative pt-5 pb-10">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="h2 mb-4 section-header">
@@ -25,7 +22,7 @@ export default function ThankYou() {
         </div>
 
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="h2 section-header mt-3 thank-you-footer">
+          <h1 className="h2 section-header thank-you-footer">
             We'll see you all at F24!
           </h1>
         </div>

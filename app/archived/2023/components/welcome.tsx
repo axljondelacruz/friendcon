@@ -1,5 +1,5 @@
-import Section from '@/components/ui/section'
-import SectionHeader from '@/components/ui/section-header'
+import Section from './ui/section'
+import SectionHeader from './ui/section-header'
 
 export default function Welcome() {
   return (

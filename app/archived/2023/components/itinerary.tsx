@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Section from '@/components/ui/section'
-import SectionHeader from '@/components/ui/section-header'
+import Section from './ui/section'
+import SectionHeader from './ui/section-header'
 
-import ItinImage from '@/public/images/itinerary.png'
+import ItinImage from '../public/images/itinerary.png'
 
 export default function Itinerary() {
   return (
