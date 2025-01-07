@@ -7,7 +7,9 @@ export default function Banner() {
       className="max-w-6xl mx-auto p-4 sm:px-6 relative text-center"
       id="banner"
     >
-      <h2 className="h1 text-black banner-text">See You Soon!</h2>
+      <h2 className="h1 text-black md:text-[100px] sm:text-[80px]">
+        See You Soon!
+      </h2>
     </div>
   )
 }
