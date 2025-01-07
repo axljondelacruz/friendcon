@@ -38,7 +38,7 @@ const transducer = localFont({
 const chellatype = localFont({
   src: [
     {
-      path: '../public/fonts/chellatype.ttf', // Adjust path
+      path: '../public/fonts/ChellaType.ttf', // Adjust path
       weight: '400',
       style: 'normal',
     },
