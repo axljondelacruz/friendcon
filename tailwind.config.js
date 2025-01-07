@@ -43,7 +43,7 @@ module.exports = {
           'sans-serif',
         ],
         bolton: ['var(--font-bolton)', 'sans-serif'],
-        transducer: ['var(--font-transducer)', 'sans-serif'],
+        quicksand: ['var(--font-quicksand)', 'sans-serif'],
         chellatype: ['var(--font-chellatype)', 'sans-serif'],
       },
       fontSize: {
