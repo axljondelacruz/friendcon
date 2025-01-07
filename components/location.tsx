@@ -7,10 +7,9 @@ import FeaturedContentRight from '@/components/ui/featured-content-right'
 
 import DesertHotSprings from '@/public/images/desert-hot-springs.jpeg'
 
-export default function Location() {
-  const googleMapsLinkUrl = 'https://maps.app.goo.gl/KmtA662XdkrhXcrX9'
-  const airBnbLinkUrl = 'https://www.airbnb.com/rooms/716609714014876455'
+import { LOCATION_GOOGLE_URL, LOCATION_AIRBNB_URL } from '@/constants/links'
 
+export default function Location() {
   return (
     <Section id="location">
       <FeaturedContentContainer>
@@ -26,9 +25,9 @@ export default function Location() {
             ideal backdrop for fun, family-friendly festivities. Get ready to soak
             up the good vibes in a place that blends natural serenity with a
             lively festival spirit."
-          linkUrl1={googleMapsLinkUrl}
+          linkUrl1={LOCATION_GOOGLE_URL}
           cta1="google maps"
-          linkUrl2={airBnbLinkUrl}
+          linkUrl2={LOCATION_AIRBNB_URL}
           cta2="airbnb"
         />
       </FeaturedContentContainer>
