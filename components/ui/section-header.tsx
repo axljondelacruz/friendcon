@@ -9,7 +9,7 @@ export default function SectionHeader({
 }) {
   return (
     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-      <h1 className="h2 mb-4 section-header">{headerText}</h1>
+      <h1 className="h2 mb-4 section-header text-black">{headerText}</h1>
       {description ? (
         <p
           className="text-xl text-gray-400 mb-8"

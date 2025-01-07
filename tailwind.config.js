@@ -38,7 +38,13 @@ module.exports = {
       },
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
-        'architects-daughter': ['var(--font-architects-daughter)', 'sans-serif']
+        'architects-daughter': [
+          'var(--font-architects-daughter)',
+          'sans-serif',
+        ],
+        bolton: ['var(--font-bolton)', 'sans-serif'],
+        transducer: ['var(--font-transducer)', 'sans-serif'],
+        chellatype: ['var(--font-chellatype)', 'sans-serif'],
       },
       fontSize: {
         xs: '0.75rem',
@@ -53,7 +59,7 @@ module.exports = {
         '6xl': '4rem',
       },
       inset: {
-        'full': '100%',
+        full: '100%',
       },
       letterSpacing: {
         tighter: '-0.02em',
@@ -64,14 +70,12 @@ module.exports = {
         widest: '0.4em',
       },
       minWidth: {
-        '10': '2.5rem',
+        10: '2.5rem',
       },
       scale: {
-        '98': '.98'
+        98: '.98',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
+  plugins: [require('@tailwindcss/forms')],
 }

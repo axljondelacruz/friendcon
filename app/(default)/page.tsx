@@ -1,14 +1,24 @@
 export const metadata = {
-  title: 'F23 Summit',
-  description: 'The Announcement Page for The F23 Summit',
+  title: 'F24 Babychella',
+  description: 'The Announcement Page for The F24 Babychella',
 }
 
-import ThankYou from '@/components/thank-you'
+import Banner from '@/components/banner'
+import Lineup from '@/components/lineup'
+import Location from '@/components/location'
+import Game from '@/components/game'
+import Proposals from '@/components/proposals'
+import Activities from '@/components/activities'
 
 export default function Home() {
   return (
     <>
-      <ThankYou />
+      <Banner />
+      <Lineup />
+      <Location />
+      <Game />
+      <Proposals />
+      <Activities />
     </>
   )
 }
