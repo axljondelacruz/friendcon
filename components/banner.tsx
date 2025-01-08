@@ -4,7 +4,6 @@ import SectionHeader from '@/components/ui/section-header'
 export default function Banner() {
   return (
     <Section
-      noPad
       id="banner"
       className="max-w-6xl mx-auto p-4 sm:px-6 relative text-center"
     >

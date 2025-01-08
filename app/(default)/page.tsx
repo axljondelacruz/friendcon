@@ -10,11 +10,15 @@ import Game from '@/components/game'
 import Proposals from '@/components/proposals'
 import Activities from '@/components/activities'
 
+import Background from '@/components/ui/background/background-2'
+
 export default function Home() {
   return (
     <>
       <Banner />
       <Lineup />
+      <Background />
+
       <Location />
       <Game />
       <Proposals />
