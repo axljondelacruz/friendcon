@@ -111,3 +111,39 @@
     transform: translateY(0);
   }
 }
+
+.floating-3 {
+  animation: float3 6s ease-in-out infinite;
+}
+
+@keyframes float3 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-4 {
+  animation: float2 5s ease-in-out infinite;
+}
+
+@keyframes float2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

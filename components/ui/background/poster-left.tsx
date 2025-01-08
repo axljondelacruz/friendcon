@@ -1,6 +1,6 @@
 export default function PosterLeft() {
   return (
-    <div className="poster-left floating">
+    <div className="poster-left floating-4">
       <div className="poster-left-content">
         <div className="poster-left-planes">
           <div className="poster-left-planes-wrapper">
