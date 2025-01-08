@@ -15,7 +15,7 @@ export default function Header() {
   const handleCloseModal = () => setIsModalOpen(false)
 
   return (
-    <header className="bg-transparent sticky top-0 z-50 w-full font-quicksand font-bold text-gray-900">
+    <header className="sticky top-0 z-50 w-full font-quicksand font-bold text-gray-900">
       <nav className="flex items-center">
         <div className="flex items-center">
           <Link

@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import Section from '@/components/ui/section'
 import FeaturedContentContainer from '@/components/ui/featured-content-container'
 import FeaturedContentLeft from '@/components/ui/featured-content-left'
@@ -11,7 +9,7 @@ import { ACTIVITES_SIGN_UP_SHEET_URL } from '@/constants/links'
 
 export default function Activities() {
   return (
-    <Section id="activities">
+    <Section id="activities" className="mb-0">
       <FeaturedContentContainer>
         <FeaturedContentLeft
           header="Other Activities"

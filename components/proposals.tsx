@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import Section from '@/components/ui/section'
 import FeaturedContentContainer from '@/components/ui/featured-content-container'
 import FeaturedContentLeft from '@/components/ui/featured-content-left'
