@@ -9,6 +9,8 @@
 
 @import 'tailwindcss/utilities';
 
+@import './background.css';
+
 /* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
 @layer utilities {
   .rtl {
@@ -29,116 +31,4 @@
 .body-bg,
 header {
   background: #f4f3e7;
-}
-
-#activities {
-  background-image: url('../../public/images/footer-background.png');
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-}
-
-.bg-ref {
-  position: relative;
-  width: 100%;
-  z-index: 0;
-}
-
-.bg-ref::before {
-  border-radius: 2980px;
-  opacity: 0.4;
-  background: linear-gradient(
-    128deg,
-    #50eaf3 22.02%,
-    rgba(245, 138, 37, 0) 71.58%
-  );
-  -webkit-filter: blur(300px);
-  filter: blur(300px);
-  z-index: -1;
-  width: 1846px;
-  height: 2980px;
-  right: -318px;
-  top: 587px;
-}
-
-.bg-ref-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 1484px;
-  padding: 103px 1.375rem 20px;
-  position: relative;
-  -webkit-transition: opacity 0.3s ease;
-  transition: opacity 0.3s ease;
-}
-
-.ferris-wheel {
-  z-index: 9;
-  position: absolute;
-  top: 28rem;
-  right: -2rem;
-  width: 400px;
-  max-width: 25%;
-  aspect-ratio: 840 / 1200;
-  pointer-events: none;
-}
-
-.twirl {
-  z-index: 9;
-  position: absolute;
-  top: 10rem;
-  right: -18rem;
-  background: url(https://media.coachella.com/content/coachella-2024/cloud-twirl-1.png);
-  width: 90%;
-  aspect-ratio: 1493 / 1270;
-  background-size: contain;
-  background-repeat: no-repeat;
-  pointer-events: none;
-}
-
-.whisp {
-  z-index: 1;
-  position: absolute;
-  top: 38rem;
-  left: -7rem;
-  background: url(https://media.coachella.com/content/coachella-2024/cloud-wisp-3.png);
-  width: 90%;
-  aspect-ratio: 1034 / 407;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.palm-trees {
-  position: absolute;
-  z-index: 9;
-  top: 30rem;
-  left: 2rem;
-  background: url(https://media.coachella.com/content/coachella-2024/illustration-palm-trees.svg);
-  width: 324px;
-  max-width: 30%;
-  min-width: 104px;
-  aspect-ratio: 235 / 476;
-  background-size: contain;
-  background-repeat: no-repeat;
-  pointer-events: none;
-}
-
-@media screen and (min-width: 1024px) {
-  .palm-trees {
-    top: 30rem;
-    left: -11rem;
-  }
-}
-
-@media screen and (min-width: 1250px) {
-  .palm-trees {
-    top: 24rem;
-  }
 }
