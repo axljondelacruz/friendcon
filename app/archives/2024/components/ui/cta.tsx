@@ -17,11 +17,15 @@ export default function Cta({
   children?: React.ReactNode
   className?: string
   id?: string
-  linkUrl: string
+  linkUrl?: string
   flyerImageSrc?: StaticImageData
 }) {
+  if (!linkUrl || !flyerImageSrc) {
+    return null
+  }
+
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [imageSrc, setImageSrc] = useState()
+  const [imageSrc, setImageSrc] = useState(flyerImageSrc)
 
   const handleCloseModal = () => setIsModalOpen(false)
 
@@ -29,25 +33,26 @@ export default function Cta({
     <div className="cta-container">
       <div className="cta">
         {flyerImageSrc ? (
-          <button
-            onClick={() => {
-              setImageSrc(flyerImageSrc)
-              setIsModalOpen(true)
-            }}
-          >
-            {children}
-          </button>
+          <>
+            <button
+              onClick={() => {
+                setIsModalOpen(true)
+              }}
+            >
+              {children}
+            </button>
+            <ImageModal
+              isOpen={isModalOpen}
+              closeModal={handleCloseModal}
+              imageSrc={flyerImageSrc}
+            />
+          </>
         ) : (
           <Link href={linkUrl} target="_blank" rel="noopener noreferrer">
             {children}
           </Link>
         )}
       </div>
-      <ImageModal
-        isOpen={isModalOpen}
-        closeModal={handleCloseModal}
-        imageSrc={imageSrc}
-      />
     </div>
   )
 }
