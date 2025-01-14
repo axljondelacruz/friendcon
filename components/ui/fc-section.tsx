@@ -1,16 +1,16 @@
-export default function Section({
-  noPad,
+export default function FcSection({
   children,
-  className,
-  id,
+  className = '',
+  id = '',
+  noPad,
 }: {
-  noPad?: boolean
   children?: React.ReactNode
   className?: string
   id?: string
+  noPad?: boolean
 }) {
   return (
-    <section id={id} className={className}>
+    <section id={id} className={`${className} fc-section`}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         {noPad ? (
           <>{children}</>

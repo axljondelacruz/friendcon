@@ -4,7 +4,6 @@ export const metadata = {
 }
 
 import ThankYou from '@/components/thank-you'
-import Group from '@/components/group'
 import Background from '@/components/ui/background/background'
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
     <>
       <Background />
       <ThankYou />
-      <Group />
     </>
   )
 }

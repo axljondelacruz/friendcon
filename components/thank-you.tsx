@@ -1,15 +1,18 @@
-import Section from '@/components/ui/section'
+import Image from 'next/image'
+import Link from 'next/link'
+
+import Section from '@/components/ui/fc-section'
+import GroupPic from '@/public/images/group.jpg'
 
 export default function ThankYou() {
   return (
-    <Section
-      noPad
-      id="thank-you"
-      className="max-w-6xl mx-auto p-4 sm:px-6 relative text-center"
-    >
-      <h2 className="h1 text-black md:text-[100px] sm:text-[80px]">
+    <Section id="thank-you" className="text-center">
+      <h2 className="h1 text-black md:text-[100px] sm:text-[80px] mb-8">
         Thank you & see you next year!
       </h2>
+      <Link href="https://photos.app.goo.gl/FUAbzTVtdzAC9X5FA">
+        <Image className="rounded-lg" src={GroupPic} alt="Group" />
+      </Link>
     </Section>
   )
 }

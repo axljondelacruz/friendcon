@@ -1,6 +1,8 @@
+import Link from 'next/link'
+import Image from 'next/image'
+
 import Section from './ui/section'
 import SectionHeader from './ui/section-header'
-import Image from 'next/image'
 import GroupPhoto from '../public/images/f23-group-photo.jpg'
 
 export default function ThankYou() {
@@ -18,7 +20,14 @@ export default function ThankYou() {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <Image src={GroupPhoto} width={1024} height={576} alt="Group photo" />
+          <Link href="https://photos.app.goo.gl/ZNaToCv1mFW4zJJp6">
+            <Image
+              src={GroupPhoto}
+              width={1024}
+              height={576}
+              alt="Group photo"
+            />
+          </Link>
         </div>
 
         <div className="max-w-6xl mx-auto text-center">

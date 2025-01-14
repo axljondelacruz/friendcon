@@ -2,7 +2,7 @@ import './css/style.css'
 import './css/animations.css'
 import localFont from 'next/font/local'
 
-import Footer from '@/components/ui/footer'
+import Footer from '@/components/ui/fc-footer'
 
 import { Inter, Architects_Daughter, Quicksand } from 'next/font/google'
 
