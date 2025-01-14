@@ -48,9 +48,12 @@ export default function Cta({
             />
           </>
         ) : (
-          <Link href={linkUrl} target="_blank" rel="noopener noreferrer">
-            {children}
-          </Link>
+          linkUrl &&
+          children && (
+            <Link href={linkUrl} target="_blank" rel="noopener noreferrer">
+              {children}
+            </Link>
+          )
         )}
       </div>
     </div>
