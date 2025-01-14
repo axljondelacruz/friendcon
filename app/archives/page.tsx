@@ -11,6 +11,10 @@ export default function ArchiveIndexPage() {
       year: '2023',
       theme: 'F23 SUMMIT',
     },
+    {
+      year: '2024',
+      theme: 'Babychella',
+    },
   ]
 
   return (

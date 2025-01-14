@@ -1,0 +1,285 @@
+#pilates {
+  background-image: url('../public/images/footer-background.png');
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.bg-ref {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.bg-ref::before {
+  border-radius: 2980px;
+  opacity: 0.4;
+  background: linear-gradient(
+    128deg,
+    #50eaf3 22.02%,
+    rgba(245, 138, 37, 0) 71.58%
+  );
+  filter: blur(300px);
+  z-index: -1;
+  width: 1846px;
+  height: 2980px;
+  right: -318px;
+  top: 587px;
+}
+
+.bg-ref-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1484px;
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+
+.ferris-wheel {
+  z-index: 9;
+  position: absolute;
+  top: 28rem;
+  right: -2rem;
+  width: 400px;
+  max-width: 25%;
+  aspect-ratio: 840 / 1200;
+  pointer-events: none;
+}
+
+.twirl {
+  z-index: 9;
+  position: absolute;
+  top: 10rem;
+  right: -18rem;
+  background: url(https://media.coachella.com/content/coachella-2024/cloud-twirl-1.png);
+  width: 90%;
+  aspect-ratio: 1493 / 1270;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.whisp {
+  z-index: 1;
+  position: absolute;
+  top: 38rem;
+  left: -7rem;
+  background: url(https://media.coachella.com/content/coachella-2024/cloud-wisp-3.png);
+  width: 90%;
+  aspect-ratio: 1034 / 407;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.palm-trees {
+  position: absolute;
+  z-index: 9;
+  top: 30rem;
+  left: 2rem;
+  background: url(https://media.coachella.com/content/coachella-2024/illustration-palm-trees.svg);
+  width: 324px;
+  max-width: 30%;
+  min-width: 104px;
+  aspect-ratio: 235 / 476;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .palm-trees {
+    top: 30rem;
+    left: -11rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .palm-trees {
+    top: 24rem;
+  }
+}
+
+/* Green blob */
+.green-blob {
+  z-index: 8;
+  position: absolute;
+  top: 4rem;
+  left: calc(-50% - 2rem);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .green-blob {
+    left: calc(-50% - 15rem);
+  }
+}
+
+.green-blob-content {
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+
+.green-blob-planes {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
+}
+
+.green-blob-planes-wrapper {
+  margin-left: auto;
+  width: 878px;
+  max-width: 75%;
+  min-width: 250px;
+  aspect-ratio: 894 / 810;
+  position: relative;
+}
+
+.green-blob-plane {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* Blue blob */
+.blue-blob {
+  z-index: 8;
+  position: absolute;
+  top: -1rem;
+  right: -50%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .blue-blob {
+    top: 10rem;
+    right: calc(-50% - 11rem);
+  }
+}
+
+.blue-blob-content {
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.blue-blob-planes {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.blue-blob-planes-wrapper {
+  width: 634px;
+  max-width: 60%;
+  min-width: 225px;
+  aspect-ratio: 709 / 521;
+  position: relative;
+}
+
+.blue-blob-plane {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* poster-left */
+.poster-left {
+  position: absolute;
+  bottom: -2rem;
+  left: -6rem;
+  z-index: -10;
+}
+
+@media (min-width: 1024px) {
+  .poster-left {
+    bottom: 12rem;
+    left: -20rem;
+  }
+}
+
+.poster-left-content {
+  position: relative;
+  z-index: 1;
+  -webkit-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+
+.poster-left-planes {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.poster-left-planes-wrapper {
+  width: 280px;
+  aspect-ratio: 556 / 500;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .poster-left-planes-wrapper {
+    max-width: none;
+    width: 587px;
+  }
+}
+
+.poster-left-plane {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* poster-right */
+.poster-right {
+  position: absolute;
+  bottom: -10rem;
+  right: -21rem;
+  z-index: -10;
+}
+
+@media (min-width: 1024px) {
+  .poster-right {
+    display: block;
+  }
+}
+
+.poster-right-content {
+  position: relative;
+  -webkit-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+
+.poster-right-planes {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.poster-right-planes-wrapper {
+  width: 517px;
+  aspect-ratio: 600 / 897;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .poster-right-planes-wrapper {
+    max-width: none;
+    width: 587px;
+  }
+}
+
+.poster-right-plane {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
