@@ -11,6 +11,9 @@ import Proposals from '../components/proposals'
 import Activities from '../components/activities'
 import Pilates from '../components/pilates'
 
+import ThankYou from '../components/thank-you'
+import Group from '../components/group'
+
 import Background from '../components/ui/background/background-2'
 
 export default function Home() {
@@ -25,6 +28,8 @@ export default function Home() {
       <Proposals />
       <Activities />
       <Pilates />
+      <ThankYou />
+      <Group />
     </>
   )
 }

@@ -1,4 +1,4 @@
-#pilates {
+#group {
   background-image: url('../../public/images/footer-background.png');
   background-position-y: bottom;
   background-repeat: no-repeat;
@@ -183,100 +183,6 @@
 }
 
 .blue-blob-plane {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-/* poster-left */
-.poster-left {
-  position: absolute;
-  bottom: -2rem;
-  left: -6rem;
-  z-index: -10;
-}
-
-@media (min-width: 1024px) {
-  .poster-left {
-    bottom: 12rem;
-    left: -20rem;
-  }
-}
-
-.poster-left-content {
-  position: relative;
-  z-index: 1;
-  -webkit-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
-}
-
-.poster-left-planes {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-}
-
-.poster-left-planes-wrapper {
-  width: 280px;
-  aspect-ratio: 556 / 500;
-  position: relative;
-}
-
-@media (min-width: 1024px) {
-  .poster-left-planes-wrapper {
-    max-width: none;
-    width: 587px;
-  }
-}
-
-.poster-left-plane {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-/* poster-right */
-.poster-right {
-  position: absolute;
-  bottom: -10rem;
-  right: -21rem;
-  z-index: -10;
-}
-
-@media (min-width: 1024px) {
-  .poster-right {
-    display: block;
-  }
-}
-
-.poster-right-content {
-  position: relative;
-  -webkit-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
-}
-
-.poster-right-planes {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-}
-
-.poster-right-planes-wrapper {
-  width: 517px;
-  aspect-ratio: 600 / 897;
-  position: relative;
-}
-
-@media (min-width: 1024px) {
-  .poster-right-planes-wrapper {
-    max-width: none;
-    width: 587px;
-  }
-}
-
-.poster-right-plane {
   position: absolute;
   top: 0;
   right: 0;
