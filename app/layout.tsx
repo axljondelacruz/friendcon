@@ -2,7 +2,6 @@ import './css/style.css'
 import './css/animations.css'
 import localFont from 'next/font/local'
 
-import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
 
 import { Inter, Architects_Daughter, Quicksand } from 'next/font/google'
@@ -79,7 +78,6 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased body-bg text-gray-200 tracking-tight`}
       >
-        <Header />
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
           <Footer />

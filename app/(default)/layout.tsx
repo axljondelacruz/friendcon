@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+import Header from '@/components/ui/header'
 import Background from '@/components/ui/background/background'
 
 export default function DefaultLayout({
@@ -24,6 +25,7 @@ export default function DefaultLayout({
   return (
     <>
       <Background />
+      <Header />
       <main className="grow font-bolton">{children}</main>
     </>
   )
