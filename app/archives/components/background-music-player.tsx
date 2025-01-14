@@ -15,10 +15,9 @@ export default function BackgroundMusicPlayer() {
   return (
     <audio
       ref={audioRef}
-      src="/audio/vitamin-c_-_graduation.mp3"
+      src="https://ia803405.us.archive.org/27/items/Graduation__Friends_Forever_/Vitamin_C__-_Graduation__Song_.mp3"
       loop
       controls={false}
-      // autoPlay can be set, but may be blocked unless muted or user interacts
       autoPlay
     />
   )
