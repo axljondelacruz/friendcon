@@ -20,7 +20,7 @@ export default function Cta({
   linkUrl?: string
   flyerImageSrc?: StaticImageData
 }) {
-  if (!linkUrl || !flyerImageSrc) {
+  if (!linkUrl && !flyerImageSrc) {
     return null
   }
 
