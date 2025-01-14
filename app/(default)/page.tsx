@@ -9,6 +9,7 @@ import Location from '@/components/location'
 import Game from '@/components/game'
 import Proposals from '@/components/proposals'
 import Activities from '@/components/activities'
+import Pilates from '@/components/pilates'
 
 import Background from '@/components/ui/background/background-2'
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Game />
       <Proposals />
       <Activities />
+      <Pilates />
     </>
   )
 }

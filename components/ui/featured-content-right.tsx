@@ -14,6 +14,8 @@ export default function FeaturedContentRight({
   cta1,
   linkUrl2,
   cta2,
+  flyerImageSrc,
+  flyerText,
 }: {
   children?: React.ReactNode
   className?: string
@@ -26,6 +28,8 @@ export default function FeaturedContentRight({
   cta1?: string
   linkUrl2?: string
   cta2?: string
+  flyerImageSrc?: StaticImageData
+  flyerText?: string
 }) {
   const order = imageSrc ? 'order-1 md:order-2' : 'order-2 md:order-2'
 
@@ -50,6 +54,11 @@ export default function FeaturedContentRight({
           <div className="flex flex-row space-x-2 justify-center">
             {linkUrl1 && cta1 && <Cta linkUrl={linkUrl1}>{cta1}</Cta>}
             {linkUrl2 && cta2 && <Cta linkUrl={linkUrl2}>{cta2}</Cta>}
+            {flyerImageSrc && (
+              <Cta flyerImageSrc={flyerImageSrc}>
+                {flyerText || 'Check out the flyer'}
+              </Cta>
+            )}
           </div>
         </>
       )}

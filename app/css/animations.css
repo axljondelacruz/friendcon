@@ -21,7 +21,8 @@
   transition: all 0.3s;
 }
 
-.cta a {
+.cta a,
+.cta button {
   background: #ffa552;
   border: 2px solid #000;
   border-radius: 16px;
@@ -41,7 +42,8 @@
   width: -moz-max-content;
   width: max-content;
 }
-.cta:hover a {
+.cta:hover a,
+.cta:hover button {
   -webkit-transform: translate(-4px, -4px);
   transform: translate(-4px, -4px);
 }
