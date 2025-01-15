@@ -116,7 +116,7 @@ export default function ArchiveIndexPage() {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        [Website]
+                        Website
                       </Link>
                     </li>
                   )}
@@ -127,7 +127,7 @@ export default function ArchiveIndexPage() {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        [Photo Album]
+                        Photo Album
                       </Link>
                     </li>
                   )}
