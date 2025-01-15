@@ -6,7 +6,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './css/style.css'
 
-import BackgroundMusicPlayer from './components/background-music-player'
+import BackgroundMusicPlayer from '@/components/ui/fc-bg-music'
 
 export default function DefaultLayout({
   children,
