@@ -89,7 +89,7 @@ export default function ArchiveIndexPage() {
   return (
     <div className="max-w-6xl mx-auto p-4 sm:px-6 relative text-black">
       <h3 className="h3 mb-3">Previous years</h3>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {archivedYears.map(
           ({ year, theme, googlePhotos, site, location, host }) => (
             <Card
